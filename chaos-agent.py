@@ -122,7 +122,7 @@ class Container(FloatLayout):
                                    pos_hint={'x': .8, 'y': .7})
 
         self.filechs = FileChooserIconView(filters=['*.docx'],
-                                           path='./',
+                                           path='~',
                                            size_hint=(.8, .7),
                                            pos_hint={'x': .1, 'y': .3})
 
